@@ -5,7 +5,7 @@ Solves ATT analogue of the covariate-balancing propensity scores problem
 
 R implementation lightly edited version of implementation [here](https://github.com/wxwx1993/wildfire_mitigation/blob/main/balancing/cbps_ATT.R) (courtesy Wager/Svedrup)
 
-Uses exponential tilting for exact balance. Approximate balance tuning forthcoming.  
+Uses exponential tilting for exact balance by default, which is preferable in low dimensions. Regularization results in approximate balance in high dimensions.  
 
 Refs:
 
